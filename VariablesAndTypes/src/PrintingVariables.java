@@ -23,9 +23,7 @@ public class PrintingVariables {
 		System.out.println("varLong = " + varLong); 
 		System.out.println("varBoolean = " + varBoolean); 
 		System.out.println("varChar = " + varChar); 
-		System.out.println("varString = " + varString);
-		
-				
+		System.out.println("varString = " + varString);				
 	}
 }
 
