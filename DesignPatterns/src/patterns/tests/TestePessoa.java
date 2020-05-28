@@ -10,7 +10,13 @@ public class TestePessoa {
 		printPessoa(p1);	
 		
 		// Criando Pessoa com Builder
-		Pessoa p2 = new PessoaBuilder().nome("William").nomeDoMeio("Suane").ultimoNome("Queiroz").apelido("DevTop").criarPessoa();
+		Pessoa p2 = new PessoaBuilder()
+				.nome("William")
+				.nomeDoMeio("Suane")
+				.ultimoNome("Queiroz")
+				.apelido("DevTop")
+				.criarPessoa();
+		
 		printPessoa(p2);
 	}
 	
