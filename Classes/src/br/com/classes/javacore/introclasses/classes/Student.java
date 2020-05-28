@@ -1,4 +1,4 @@
-package br.com.classes.javacore.introclasses;
+package br.com.classes.javacore.introclasses.classes;
 
 public class Student {
 	public String name;

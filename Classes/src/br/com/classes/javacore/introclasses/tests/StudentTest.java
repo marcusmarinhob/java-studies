@@ -1,6 +1,6 @@
-package br.com.classes.javacore.introclassestests;
+package br.com.classes.javacore.introclasses.tests;
 
-import br.com.classes.javacore.introclasses.Student;
+import br.com.classes.javacore.introclasses.classes.Student;
 
 public class StudentTest {
 	public static void main(String[] args) {
