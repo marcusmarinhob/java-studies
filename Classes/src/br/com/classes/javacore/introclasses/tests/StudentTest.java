@@ -6,12 +6,12 @@ public class StudentTest {
 	public static void main(String[] args) {
 		Student student = new Student();
 		
-		student.name = "Marcus";
-		student.registration = "BR123456";
-		student.age = 10;
+		student.setName("Marcus");
+		student.setRegistration("BR123456");
+		student.setAge(10);
 		
-		System.out.println("Name: " + student.name);
-		System.out.println("Registration: " + student.registration);
-		System.out.println("Age: " + student.age);
+		System.out.println("Name: " + student.getName());
+		System.out.println("Registration: " + student.getRegistration());
+		System.out.println("Age: " + student.getAge());
 	}
 }
