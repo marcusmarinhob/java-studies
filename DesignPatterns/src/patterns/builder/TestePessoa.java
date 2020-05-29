@@ -12,7 +12,7 @@ public class TestePessoa {
 				.nomeDoMeio("Suane")
 				.ultimoNome("Queiroz")
 				.apelido("DevTop")
-				.criarPessoa();		
+				.build();		
 		printPessoa(p2);
 	}
 	
