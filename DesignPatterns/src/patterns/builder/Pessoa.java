@@ -1,4 +1,4 @@
-package patterns.classes;
+package patterns.builder;
 
 public class Pessoa {
 	private String nome;

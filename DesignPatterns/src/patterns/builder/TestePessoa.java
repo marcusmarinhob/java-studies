@@ -1,7 +1,4 @@
-package patterns.tests;
-
-import patterns.classes.Pessoa;
-import patterns.classes.PessoaBuilder;
+package patterns.builder;
 
 public class TestePessoa {
 	public static void main(String[] args) {
@@ -15,8 +12,7 @@ public class TestePessoa {
 				.nomeDoMeio("Suane")
 				.ultimoNome("Queiroz")
 				.apelido("DevTop")
-				.criarPessoa();
-		
+				.criarPessoa();		
 		printPessoa(p2);
 	}
 	
