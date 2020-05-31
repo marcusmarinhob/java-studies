@@ -1,4 +1,4 @@
-package patterns.singleton;
+package patterns.xxx;
 
 public class TesteAviao {
 	public static void main(String[] args) {
