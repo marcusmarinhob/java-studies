@@ -1,4 +1,4 @@
-package pattens.creational.factory;
+package patterns.creational.factory;
 
 public class Knife {
 	protected String knifeType = new String();
