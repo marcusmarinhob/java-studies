@@ -1,4 +1,4 @@
-package pattens.creational.singleton;
+package patterns.creational.singleton;
 
 public class Singleton {
 	// The class variable is null if no instance is instantiated
