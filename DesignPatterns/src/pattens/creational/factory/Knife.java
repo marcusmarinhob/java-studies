@@ -6,8 +6,8 @@ public class Knife {
 	private boolean polished = false;
 	private boolean packaged = false;	
 	
-	public Knife(String knifeType) {
-		this.setKnifeType(knifeType);
+	public Knife() {
+		this.setKnifeType("general");
 	}
 	
 	public void sharpenKnife() {

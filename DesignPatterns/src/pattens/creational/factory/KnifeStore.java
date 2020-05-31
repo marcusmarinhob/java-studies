@@ -9,18 +9,15 @@ public class KnifeStore {
 		if (knifeType.equals("steak")) {
 			knife = new SteakKnife();
 
-			knife.polishKnife();
-			
 		} else if (knifeType.equals("chefs")) {
 			knife = new ChefsKnife();
-			
-			knife.sharpenKnife();
-			knife.polishKnife();
 		
 		} else {
-			knife = new Knife("general");
+			knife = new Knife();
 		}		
 		
+		knife.sharpenKnife();
+		knife.polishKnife();
 		knife.packageKnife();
 		
 		return knife;
